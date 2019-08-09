@@ -12,8 +12,14 @@ import static org.junit.Assert.*;
 public class StreamApiControllerTest {
     @Autowired
     private  StreamApiController  streamApiController;
+
     @Test
-    public void test1() {
-        streamApiController.test();
+    public void getSorted() {
+        streamApiController.getSorted();
+    }
+
+    @Test
+    public void getStudent() {
+        streamApiController.getStudent();
     }
 }

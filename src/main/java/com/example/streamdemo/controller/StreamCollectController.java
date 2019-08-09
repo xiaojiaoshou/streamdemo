@@ -30,10 +30,6 @@ public class StreamCollectController {
         students.add(student4);
     }
 
-    @RequestMapping("/test")
-    public void test() {
-
-    }
 
     /**
      * @描述: collect 转换为集合 list
@@ -54,12 +50,12 @@ public class StreamCollectController {
 
     /**
      * @描述: collect 转换为集合set
-     * @param students
+     * @param
      * @exception
      * @return void
      * @date 2019/8/2
      */
-    public void getCollectToSet(List<Student> students) {
+    public void getCollectToSet() {
         Set<Student> set = Optional
                 .ofNullable(students)
                 .orElseGet(() -> Collections.emptyList())
