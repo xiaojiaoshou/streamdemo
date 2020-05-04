@@ -9,7 +9,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * @类描述: 高级集合Collection和收集器的研究
+ * @类描述: 收集器Collection的研究
  * @author guohuixiang
  * @date 2019/8/2
  */
